@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+body{
+    background-color: black;
+}
+
+.hero{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 60vh;
+    position: absolute;
+    top: 19vh;
+    background-color: white;
+}
+
+img{
+    height: 60vh;
+    width: 73vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+h1{
+    /* border: 2px solid green; */
+    margin: 0px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 7px;
+}
